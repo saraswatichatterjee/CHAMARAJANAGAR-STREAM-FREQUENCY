@@ -185,7 +185,7 @@ html, body, #map {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Peripheral zones show high Stream Frequency in red/orange indicating a dense network of streams per unit area, steep slopes, and rapid surface runoff with low infiltration, while central blue areas show low Stream Frequency indicating fewer channels, gentler terrain, and higher permeability with more groundwater recharge.';
+                this._div.innerHTML = 'Blue areas have high Stream Frequency meaning many streams per unit area with dense drainage networks, while red areas have low Stream Frequency meaning few streams per unit area with sparse drainage networks..';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
